@@ -1,3 +1,6 @@
+// TC=O(n)
+// SC=O(1)
+
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
