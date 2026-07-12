@@ -1,19 +1,18 @@
+// Approach:
+// 1. Sort the array.
+// 2. Majority element (> n/2 occurrences) will always be at index n/2.
+// 3. Return nums[n/2].
+
+// Time Complexity: O(n log n)
+// Space Complexity: O(log n) (recursion stack of std::sort)
+
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
         int n = nums.size();
+        sort(nums.begin(),nums.end());
+        return nums[n/2];
 
-        for (int i = 0; i < n; i++) {
-            int freq = 0;
-            for (int j = i; j < n; j++) {
-                if (nums[i] == nums[j]) {
-                    freq++;
-                }
-            }
-            if (freq > n / 2) {
-                return nums[i];
-            }
-        }
-        return -1;
+    
     }
 };
