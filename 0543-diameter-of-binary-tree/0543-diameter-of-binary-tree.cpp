@@ -1,21 +1,26 @@
 /*
-Approach:
-- The diameter of a binary tree is the length of the longest path between any
-two nodes.
-- For every node, there are three possible cases:
-    1. The diameter lies entirely in the left subtree.
-    2. The diameter lies entirely in the right subtree.
-    3. The diameter passes through the current node.
-- To find the diameter passing through the current node, calculate the heights
-of its left and right subtrees.
-- The current diameter is:
-      leftHeight + rightHeight
-- Recursively compute the diameters of the left and right subtrees and return
-the maximum among: leftDiameter, rightDiameter, and currentDiameter.
-- The height function recursively returns the maximum height of the left and
-right subtrees plus one.
-- Since the height is recomputed for every node, this brute-force approach has a
-time complexity of O(n²).
+Approach (Optimized DFS):
+- Instead of calculating the height separately for every node, compute both the
+  height and diameter in a single DFS traversal.
+- For each node:
+    1. Recursively find the height of the left subtree.
+    2. Recursively find the height of the right subtree.
+    3. The diameter passing through the current node is:
+           leftHeight + rightHeight
+    4. Update the global variable 'ans' if the current diameter is larger than
+       the previously recorded maximum.
+- The height of the current node is:
+       max(leftHeight, rightHeight) + 1
+- After traversing the entire tree, 'ans' stores the maximum diameter of the
+tree.
+
+Time Complexity: O(n)
+- Every node is visited exactly once.
+
+Space Complexity: O(h)
+- h is the height of the tree due to the recursive call stack.
+- Worst Case: O(n) for a skewed tree.
+- Best/Average Case: O(log n) for a balanced tree.
 */
 
 /**
@@ -32,6 +37,7 @@ time complexity of O(n²).
  */
 class Solution {
 public:
+    int ans = 0;
     int height(TreeNode* root) {
         if (root == NULL) {
             return 0;
@@ -39,16 +45,13 @@ public:
         int leftHeight = height(root->left);
         int rightHeight = height(root->right);
 
+        ans = max(ans, leftHeight + rightHeight); // currDia of root node
+
         return max(leftHeight, rightHeight) + 1;
     }
     int diameterOfBinaryTree(TreeNode* root) {
-        if (root == NULL) {
-            return 0;
-        }
-        int leftDia = diameterOfBinaryTree(root->left);
-        int rightDia = diameterOfBinaryTree(root->right);
-        int currDia = height(root->left) + height(root->right);
+        height(root);
 
-        return max(max(leftDia, rightDia), currDia);
+        return ans;
     }
 };
