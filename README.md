@@ -58,6 +58,7 @@
 | [0100-same-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0100-same-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Maahichaurasiya/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Maahichaurasiya/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0543-diameter-of-binary-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0572-subtree-of-another-tree) |
 ## Depth-First Search
 |  |
@@ -66,6 +67,7 @@
 | [0100-same-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0100-same-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Maahichaurasiya/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Maahichaurasiya/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0543-diameter-of-binary-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0572-subtree-of-another-tree) |
 ## Binary Tree
 |  |
@@ -74,6 +76,7 @@
 | [0100-same-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0100-same-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Maahichaurasiya/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Maahichaurasiya/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0543-diameter-of-binary-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0572-subtree-of-another-tree) |
 ## Breadth-First Search
 |  |
