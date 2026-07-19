@@ -50,7 +50,7 @@ class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         if (root == NULL) {
-            return 0;
+            return NULL;
         }
         if (root->val == p->val || root->val == q->val) {
             return root;
