@@ -9,6 +9,7 @@
 | [0134-gas-station](https://github.com/Maahichaurasiya/Leetcode/tree/master/0134-gas-station) |
 | [0136-single-number](https://github.com/Maahichaurasiya/Leetcode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/Maahichaurasiya/Leetcode/tree/master/0169-majority-element) |
+| [2965-find-missing-and-repeated-values](https://github.com/Maahichaurasiya/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
 ## Greedy
 |  |
 | ------- |
@@ -32,6 +33,7 @@
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Maahichaurasiya/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0169-majority-element](https://github.com/Maahichaurasiya/Leetcode/tree/master/0169-majority-element) |
+| [2965-find-missing-and-repeated-values](https://github.com/Maahichaurasiya/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
 ## Sorting
 |  |
 | ------- |
@@ -44,6 +46,7 @@
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Maahichaurasiya/Leetcode/tree/master/0050-powx-n) |
+| [2965-find-missing-and-repeated-values](https://github.com/Maahichaurasiya/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
 ## Recursion
 |  |
 | ------- |
@@ -112,4 +115,8 @@
 |  |
 | ------- |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
+## Matrix
+|  |
+| ------- |
+| [2965-find-missing-and-repeated-values](https://github.com/Maahichaurasiya/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
 <!---LeetCode Topics End-->
