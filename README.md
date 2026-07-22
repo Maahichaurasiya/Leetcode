@@ -67,6 +67,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/Maahichaurasiya/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Maahichaurasiya/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/Maahichaurasiya/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0572-subtree-of-another-tree) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
@@ -79,6 +80,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/Maahichaurasiya/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Maahichaurasiya/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/Maahichaurasiya/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0572-subtree-of-another-tree) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
@@ -93,6 +95,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/Maahichaurasiya/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Maahichaurasiya/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/Maahichaurasiya/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0572-subtree-of-another-tree) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
@@ -106,6 +109,7 @@
 ## String Matching
 |  |
 | ------- |
+| [0257-binary-tree-paths](https://github.com/Maahichaurasiya/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0572-subtree-of-another-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0572-subtree-of-another-tree) |
 ## Hash Function
 |  |
@@ -119,4 +123,8 @@
 |  |
 | ------- |
 | [2965-find-missing-and-repeated-values](https://github.com/Maahichaurasiya/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
+## Backtracking
+|  |
+| ------- |
+| [0257-binary-tree-paths](https://github.com/Maahichaurasiya/Leetcode/tree/master/0257-binary-tree-paths) |
 <!---LeetCode Topics End-->
