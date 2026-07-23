@@ -50,6 +50,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/Maahichaurasiya/Leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0050-powx-n](https://github.com/Maahichaurasiya/Leetcode/tree/master/0050-powx-n) |
 ## Stack
 |  |
@@ -136,4 +137,8 @@
 |  |
 | ------- |
 | [0257-binary-tree-paths](https://github.com/Maahichaurasiya/Leetcode/tree/master/0257-binary-tree-paths) |
+## Linked List
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/Maahichaurasiya/Leetcode/tree/master/0021-merge-two-sorted-lists) |
 <!---LeetCode Topics End-->
