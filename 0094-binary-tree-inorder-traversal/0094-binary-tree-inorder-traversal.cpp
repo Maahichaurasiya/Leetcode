@@ -1,3 +1,114 @@
+
+/*
+Approach:
+---------
+This solution uses Morris Inorder Traversal to perform an inorder traversal
+of the binary tree without using recursion or an extra stack.
+
+Normally, inorder traversal requires either:
+1. Recursion (uses call stack), or
+2. An explicit stack.
+
+Morris Traversal avoids both by temporarily modifying the tree.
+It creates a temporary link (called a thread) from the Inorder
+Predecessor of a node back to the current node. This allows us
+to return to the current node after completely visiting its left
+subtree.
+
+Before the traversal finishes, all temporary threads are removed,
+so the original tree structure remains unchanged.
+
+Algorithm:
+----------
+1. Start from the root node.
+2. While the current node is not NULL:
+   - If there is no left child:
+       • Visit the current node.
+       • Move to its right child.
+   - Otherwise:
+       • Find the Inorder Predecessor (the rightmost node in the left subtree).
+       • If the predecessor's right pointer is NULL:
+            - Create a temporary thread pointing to the current node.
+            - Move to the left child.
+       • Otherwise:
+            - The left subtree has already been visited.
+            - Remove the temporary thread.
+            - Visit the current node.
+            - Move to the right child.
+3. Repeat until all nodes are processed.
+
+Example:
+--------
+
+        4
+       / \
+      2   6
+     / \ / \
+    1  3 5  7
+
+Traversal Process:
+
+Start at 4
+↓
+Move to left subtree after creating a thread.
+
+Visit 1
+Answer = [1]
+
+Return to 2 using the thread.
+Visit 2
+Answer = [1, 2]
+
+Visit 3
+Answer = [1, 2, 3]
+
+Return to 4 using the thread.
+Visit 4
+Answer = [1, 2, 3, 4]
+
+Move to right subtree.
+
+Visit 5
+Answer = [1, 2, 3, 4, 5]
+
+Visit 6
+Answer = [1, 2, 3, 4, 5, 6]
+
+Visit 7
+Answer = [1, 2, 3, 4, 5, 6, 7]
+
+Final Output:
+-------------
+[1, 2, 3, 4, 5, 6, 7]
+
+Time Complexity:
+----------------
+O(n)
+
+Each node is processed at most twice:
+- Once while creating a temporary thread.
+- Once while removing the thread.
+
+Therefore, the overall time complexity is O(n).
+
+Space Complexity:
+-----------------
+O(1)
+
+No recursion or stack is used.
+Only a few pointers (curr and predecessor) are maintained,
+making the extra space constant.
+
+Why Morris Traversal?
+---------------------
+- Eliminates the need for recursion.
+- Does not require an auxiliary stack.
+- Uses only constant extra space.
+- Restores the original binary tree after traversal.
+- Preferred when an inorder traversal with O(1) auxiliary space is required.
+*/
+
+
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -13,49 +124,38 @@
 
 
 
-/*
-Approach:
-- This solution uses the recursive Inorder Traversal technique.
-- In inorder traversal, the nodes are visited in the following order:
- 1. Traverse the left subtree.
- 2. Visit the current node.
- 3. Traverse the right subtree.
-- A helper function `inorder()` is used to recursively visit each node.
-- Every visited node's value is stored in the `ans` vector.
-- Once the traversal is complete, the vector containing the inorder sequence is
-returned.
-
-Algorithm:
-1. If the current node is NULL, return.
-2. Recursively traverse the left subtree.
-3. Store the current node's value in the answer vector.
-4. Recursively traverse the right subtree.
-5. Return the final inorder traversal.
-
-Time Complexity: O(n)
-- Every node is visited exactly once.
-
-Space Complexity: O(h)
-- h is the height of the binary tree due to the recursive call stack.
-- Worst Case: O(n) (Skewed Tree)
-- Best/Average Case: O(log n) (Balanced Tree)
-*/
 
 
 
 class Solution {
 public:
-    vector<int> ans;
-    void inorder(TreeNode* root) {
-        if (root == NULL) {
-            return;
-        }
-        inorder(root->left);
-        ans.push_back(root->val);
-        inorder(root->right);
-    }
+    
     vector<int> inorderTraversal(TreeNode* root) {
-        inorder(root);
+        vector<int>ans;
+        TreeNode* curr=root;
+        while(curr!=NULL){
+            if(curr->left==NULL){
+                ans.push_back(curr->val);
+                curr=curr->right;
+            }
+            else{
+
+                // finding IP (Inorder Predecessor is rightmost node of left subTree)
+                TreeNode* IP=curr->left;
+                while(IP->right!=NULL && IP->right!=curr){
+                    IP=IP->right;
+                }
+                if(IP->right==NULL){
+                    IP->right=curr; //create thread
+                    curr=curr->left;
+                }
+                else{
+                    IP->right=NULL;
+                    ans.push_back(curr->val);
+                    curr=curr->right;
+                }
+            }
+        }
         return ans;
     }
 };
