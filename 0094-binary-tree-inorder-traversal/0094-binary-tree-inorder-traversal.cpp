@@ -108,7 +108,6 @@ Why Morris Traversal?
 - Preferred when an inorder traversal with O(1) auxiliary space is required.
 */
 
-
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -122,37 +121,30 @@ Why Morris Traversal?
  * };
  */
 
-
-
-
-
-
 class Solution {
 public:
-    
     vector<int> inorderTraversal(TreeNode* root) {
-        vector<int>ans;
-        TreeNode* curr=root;
-        while(curr!=NULL){
-            if(curr->left==NULL){
+        vector<int> ans;
+        TreeNode* curr = root;
+        while (curr != NULL) {
+            if (curr->left == NULL) {
                 ans.push_back(curr->val);
-                curr=curr->right;
-            }
-            else{
+                curr = curr->right;
+            } else {
 
-                // finding IP (Inorder Predecessor is rightmost node of left subTree)
-                TreeNode* IP=curr->left;
-                while(IP->right!=NULL && IP->right!=curr){
-                    IP=IP->right;
+                // finding IP (Inorder Predecessor is rightmost node of left
+                // subTree)
+                TreeNode* IP = curr->left;
+                while (IP->right != NULL && IP->right != curr) {
+                    IP = IP->right;
                 }
-                if(IP->right==NULL){
-                    IP->right=curr; //create thread
-                    curr=curr->left;
-                }
-                else{
-                    IP->right=NULL;
+                if (IP->right == NULL) {
+                    IP->right = curr; // create thread
+                    curr = curr->left;
+                } else {
+                    IP->right = NULL;
                     ans.push_back(curr->val);
-                    curr=curr->right;
+                    curr = curr->right;
                 }
             }
         }
