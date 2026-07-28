@@ -10,6 +10,7 @@
 | [0134-gas-station](https://github.com/Maahichaurasiya/Leetcode/tree/master/0134-gas-station) |
 | [0136-single-number](https://github.com/Maahichaurasiya/Leetcode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/Maahichaurasiya/Leetcode/tree/master/0169-majority-element) |
+| [1480-running-sum-of-1d-array](https://github.com/Maahichaurasiya/Leetcode/tree/master/1480-running-sum-of-1d-array) |
 | [2965-find-missing-and-repeated-values](https://github.com/Maahichaurasiya/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
 ## Greedy
 |  |
@@ -155,4 +156,8 @@
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Maahichaurasiya/Leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Maahichaurasiya/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
+## Prefix Sum
+|  |
+| ------- |
+| [1480-running-sum-of-1d-array](https://github.com/Maahichaurasiya/Leetcode/tree/master/1480-running-sum-of-1d-array) |
 <!---LeetCode Topics End-->
