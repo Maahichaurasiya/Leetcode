@@ -11,6 +11,7 @@
 | [0134-gas-station](https://github.com/Maahichaurasiya/Leetcode/tree/master/0134-gas-station) |
 | [0136-single-number](https://github.com/Maahichaurasiya/Leetcode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/Maahichaurasiya/Leetcode/tree/master/0169-majority-element) |
+| [0189-rotate-array](https://github.com/Maahichaurasiya/Leetcode/tree/master/0189-rotate-array) |
 | [1480-running-sum-of-1d-array](https://github.com/Maahichaurasiya/Leetcode/tree/master/1480-running-sum-of-1d-array) |
 | [1672-richest-customer-wealth](https://github.com/Maahichaurasiya/Leetcode/tree/master/1672-richest-customer-wealth) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Maahichaurasiya/Leetcode/tree/master/1752-check-if-array-is-sorted-and-rotated) |
@@ -52,6 +53,7 @@
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Maahichaurasiya/Leetcode/tree/master/0050-powx-n) |
+| [0189-rotate-array](https://github.com/Maahichaurasiya/Leetcode/tree/master/0189-rotate-array) |
 | [2965-find-missing-and-repeated-values](https://github.com/Maahichaurasiya/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
 ## Recursion
 |  |
@@ -168,4 +170,5 @@
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Maahichaurasiya/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0189-rotate-array](https://github.com/Maahichaurasiya/Leetcode/tree/master/0189-rotate-array) |
 <!---LeetCode Topics End-->
