@@ -1,44 +1,50 @@
 /*
-Approach (Hashing):
-------------------
-Use an unordered_set to store unique elements.
+Approach:
+---------
+The array is sorted, so duplicate elements are next to each other.
 
-Traverse the array:
-1. If the current element is not in the set,
-   insert it into the set.
-2. Place the unique element at nums[index].
-3. Increment index.
+Use two pointers:
+- index -> points to the last unique element.
+- i     -> checks every element.
 
-At the end, index represents the number of
-unique elements.
+If nums[i] is different from nums[index]:
+1. Move index forward.
+2. Copy nums[i] to nums[index].
+
+At the end, the first (index + 1) elements are the unique elements.
+
+Algorithm:
+----------
+1. Set index = 0.
+2. Traverse the array from i = 1 to n-1.
+3. If nums[i] != nums[index]:
+   - index++
+   - nums[index] = nums[i]
+4. Return index + 1.
 
 Time Complexity:
+----------------
 O(n)
 
 Space Complexity:
-O(n)
+-----------------
+O(1)
 
 Pattern:
 --------
-Hashing (unordered_set)
+Two Pointers (Same Direction)
 */
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-
-        unordered_set<int> st;
-        int index = 0;
-
-        for (int i = 0; i < nums.size(); i++) {
-
-            if (st.find(nums[i]) == st.end()) {
-
-                st.insert(nums[i]);
-                nums[index] = nums[i];
+        int index=0;
+        for(int i=1;i<nums.size();i++){
+            if(nums[i]!=nums[index]){
                 index++;
+                nums[index]=nums[i];
             }
         }
+        return index+1;
 
-        return index;
     }
 };
