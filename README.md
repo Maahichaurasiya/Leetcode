@@ -8,6 +8,7 @@
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Maahichaurasiya/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Maahichaurasiya/Leetcode/tree/master/0031-next-permutation) |
 | [0053-maximum-subarray](https://github.com/Maahichaurasiya/Leetcode/tree/master/0053-maximum-subarray) |
+| [0073-set-matrix-zeroes](https://github.com/Maahichaurasiya/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Maahichaurasiya/Leetcode/tree/master/0075-sort-colors) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Maahichaurasiya/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -45,6 +46,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Maahichaurasiya/Leetcode/tree/master/0001-two-sum) |
+| [0073-set-matrix-zeroes](https://github.com/Maahichaurasiya/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Maahichaurasiya/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0169-majority-element](https://github.com/Maahichaurasiya/Leetcode/tree/master/0169-majority-element) |
 | [2965-find-missing-and-repeated-values](https://github.com/Maahichaurasiya/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
@@ -159,6 +161,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/Maahichaurasiya/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [1672-richest-customer-wealth](https://github.com/Maahichaurasiya/Leetcode/tree/master/1672-richest-customer-wealth) |
 | [2965-find-missing-and-repeated-values](https://github.com/Maahichaurasiya/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
 ## Backtracking
