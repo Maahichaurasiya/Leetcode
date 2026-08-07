@@ -9,6 +9,7 @@
 | [0031-next-permutation](https://github.com/Maahichaurasiya/Leetcode/tree/master/0031-next-permutation) |
 | [0048-rotate-image](https://github.com/Maahichaurasiya/Leetcode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Maahichaurasiya/Leetcode/tree/master/0053-maximum-subarray) |
+| [0054-spiral-matrix](https://github.com/Maahichaurasiya/Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Maahichaurasiya/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Maahichaurasiya/Leetcode/tree/master/0075-sort-colors) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Maahichaurasiya/Leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -164,6 +165,7 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Maahichaurasiya/Leetcode/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/Maahichaurasiya/Leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Maahichaurasiya/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [1672-richest-customer-wealth](https://github.com/Maahichaurasiya/Leetcode/tree/master/1672-richest-customer-wealth) |
 | [2965-find-missing-and-repeated-values](https://github.com/Maahichaurasiya/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
@@ -192,5 +194,6 @@
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Maahichaurasiya/Leetcode/tree/master/0054-spiral-matrix) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Maahichaurasiya/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 <!---LeetCode Topics End-->
