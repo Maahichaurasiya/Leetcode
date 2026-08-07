@@ -7,6 +7,7 @@
 | [0001-two-sum](https://github.com/Maahichaurasiya/Leetcode/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Maahichaurasiya/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Maahichaurasiya/Leetcode/tree/master/0031-next-permutation) |
+| [0048-rotate-image](https://github.com/Maahichaurasiya/Leetcode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Maahichaurasiya/Leetcode/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/Maahichaurasiya/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Maahichaurasiya/Leetcode/tree/master/0075-sort-colors) |
@@ -62,6 +63,7 @@
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Maahichaurasiya/Leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Maahichaurasiya/Leetcode/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/Maahichaurasiya/Leetcode/tree/master/0189-rotate-array) |
 | [2965-find-missing-and-repeated-values](https://github.com/Maahichaurasiya/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
@@ -161,6 +163,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Maahichaurasiya/Leetcode/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/Maahichaurasiya/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [1672-richest-customer-wealth](https://github.com/Maahichaurasiya/Leetcode/tree/master/1672-richest-customer-wealth) |
 | [2965-find-missing-and-repeated-values](https://github.com/Maahichaurasiya/Leetcode/tree/master/2965-find-missing-and-repeated-values) |
