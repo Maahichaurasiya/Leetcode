@@ -20,6 +20,7 @@
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0134-gas-station](https://github.com/Maahichaurasiya/Leetcode/tree/master/0134-gas-station) |
 | [0136-single-number](https://github.com/Maahichaurasiya/Leetcode/tree/master/0136-single-number) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/Maahichaurasiya/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/Maahichaurasiya/Leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Maahichaurasiya/Leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Maahichaurasiya/Leetcode/tree/master/0283-move-zeroes) |
@@ -170,6 +171,7 @@
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Maahichaurasiya/Leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0098-validate-binary-search-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/Maahichaurasiya/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0704-binary-search](https://github.com/Maahichaurasiya/Leetcode/tree/master/0704-binary-search) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Maahichaurasiya/Leetcode/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
