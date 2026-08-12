@@ -29,6 +29,7 @@
 | [0540-single-element-in-a-sorted-array](https://github.com/Maahichaurasiya/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Maahichaurasiya/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/Maahichaurasiya/Leetcode/tree/master/0704-binary-search) |
+| [0875-koko-eating-bananas](https://github.com/Maahichaurasiya/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [1480-running-sum-of-1d-array](https://github.com/Maahichaurasiya/Leetcode/tree/master/1480-running-sum-of-1d-array) |
 | [1672-richest-customer-wealth](https://github.com/Maahichaurasiya/Leetcode/tree/master/1672-richest-customer-wealth) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Maahichaurasiya/Leetcode/tree/master/1752-check-if-array-is-sorted-and-rotated) |
@@ -178,6 +179,7 @@
 | [0540-single-element-in-a-sorted-array](https://github.com/Maahichaurasiya/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/Maahichaurasiya/Leetcode/tree/master/0704-binary-search) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Maahichaurasiya/Leetcode/tree/master/0783-minimum-distance-between-bst-nodes) |
+| [0875-koko-eating-bananas](https://github.com/Maahichaurasiya/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
 ## Matrix
 |  |
