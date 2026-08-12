@@ -31,6 +31,7 @@
 | [0704-binary-search](https://github.com/Maahichaurasiya/Leetcode/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/Maahichaurasiya/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [1480-running-sum-of-1d-array](https://github.com/Maahichaurasiya/Leetcode/tree/master/1480-running-sum-of-1d-array) |
+| [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Maahichaurasiya/Leetcode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1672-richest-customer-wealth](https://github.com/Maahichaurasiya/Leetcode/tree/master/1672-richest-customer-wealth) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/Maahichaurasiya/Leetcode/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Maahichaurasiya/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
@@ -181,6 +182,7 @@
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Maahichaurasiya/Leetcode/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0875-koko-eating-bananas](https://github.com/Maahichaurasiya/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
+| [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Maahichaurasiya/Leetcode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 ## Matrix
 |  |
 | ------- |
