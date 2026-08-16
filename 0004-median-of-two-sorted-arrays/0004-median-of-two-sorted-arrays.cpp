@@ -4,13 +4,28 @@ public:
         int n = nums1.size();
         int m = nums2.size();
         vector<int> arr;
-        for (int i = 0; i < n; i++) {
+        int i = 0;
+        int j = 0;
+        while (i < n && j < m) {
+            if (nums1[i] < nums2[j]) {
+                arr.push_back(nums1[i]);
+                i++;
+            } else {
+                arr.push_back(nums2[j]);
+                j++;
+            }
+        }
+         // Remaining elements of nums1
+        while (i < n) {
             arr.push_back(nums1[i]);
+            i++;
         }
-        for (int i = 0; i < m; i++) {
-            arr.push_back(nums2[i]);
+
+        // Remaining elements of nums2
+        while (j < m) {
+            arr.push_back(nums2[j]);
+            j++;
         }
-        sort(arr.begin(), arr.end());
 
         int a = arr.size();
 
