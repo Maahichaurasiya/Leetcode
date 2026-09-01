@@ -104,6 +104,7 @@
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Maahichaurasiya/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Maahichaurasiya/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Maahichaurasiya/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [1021-remove-outermost-parentheses](https://github.com/Maahichaurasiya/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 ## Tree
 |  |
 | ------- |
@@ -174,6 +175,7 @@
 | ------- |
 | [0257-binary-tree-paths](https://github.com/Maahichaurasiya/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0572-subtree-of-another-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0572-subtree-of-another-tree) |
+| [1021-remove-outermost-parentheses](https://github.com/Maahichaurasiya/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 ## Hash Function
 |  |
 | ------- |
@@ -241,4 +243,8 @@
 | ------- |
 | [0054-spiral-matrix](https://github.com/Maahichaurasiya/Leetcode/tree/master/0054-spiral-matrix) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Maahichaurasiya/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
+## Bracket Sequences
+|  |
+| ------- |
+| [1021-remove-outermost-parentheses](https://github.com/Maahichaurasiya/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 <!---LeetCode Topics End-->
