@@ -3,31 +3,46 @@ public:
     string removeOuterParentheses(string s) {
 
         string ans = "";
+        int level = 0;
 
-        int balance = 0;
-        int start = 0;
+        // Traverse every character
+        for (char ch : s) {
 
-        for (int i = 0; i < s.size(); i++) {
+            if (ch == '(') {
 
-            if (s[i] == '(')
-                balance++;
-            else
-                balance--;
+                // If level > 0, this '(' is not outermost
+                if (level > 0) {
+                    ans.push_back(ch);
+                }
 
-            // One primitive is completed
-            if (balance == 0) {
+                // Increase nesting level
+                level++;
 
-                string primitive = s.substr(start, i - start + 1);
+            } else {
 
-                // Remove outermost '(' and ')'
-                string inner = primitive.substr(1, primitive.size() - 2);
+                // Decrease level before checking ')'
+                level--;
 
-                ans += inner;
-
-                start = i + 1;
+                // If level > 0, this ')' is not outermost
+                if (level > 0) {
+                    ans.push_back(ch);
+                }
             }
         }
 
+        // Return string after removing outermost parentheses
         return ans;
     }
 };
+
+/*
+Approach:
+- Maintain 'level' to track current parenthesis depth.
+- Skip '(' when level == 0 → outermost opening bracket.
+- Decrease level for ')'.
+- Skip ')' when level becomes 0 → outermost closing bracket.
+- Add all inner parentheses to 'ans'.
+
+Time Complexity: O(n)
+Space Complexity: O(n) for the answer
+*/
