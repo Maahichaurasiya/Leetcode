@@ -186,6 +186,7 @@
 | [0205-isomorphic-strings](https://github.com/Maahichaurasiya/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0257-binary-tree-paths](https://github.com/Maahichaurasiya/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0572-subtree-of-another-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0796-rotate-string](https://github.com/Maahichaurasiya/Leetcode/tree/master/0796-rotate-string) |
 | [1021-remove-outermost-parentheses](https://github.com/Maahichaurasiya/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1903-largest-odd-number-in-string](https://github.com/Maahichaurasiya/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 ## Hash Function
