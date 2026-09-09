@@ -114,6 +114,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/Maahichaurasiya/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Maahichaurasiya/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [1021-remove-outermost-parentheses](https://github.com/Maahichaurasiya/Leetcode/tree/master/1021-remove-outermost-parentheses) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Maahichaurasiya/Leetcode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Tree
 |  |
 | ------- |
@@ -195,6 +196,7 @@
 | [0572-subtree-of-another-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0796-rotate-string](https://github.com/Maahichaurasiya/Leetcode/tree/master/0796-rotate-string) |
 | [1021-remove-outermost-parentheses](https://github.com/Maahichaurasiya/Leetcode/tree/master/1021-remove-outermost-parentheses) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Maahichaurasiya/Leetcode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1903-largest-odd-number-in-string](https://github.com/Maahichaurasiya/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 ## Hash Function
 |  |
@@ -268,6 +270,7 @@
 |  |
 | ------- |
 | [1021-remove-outermost-parentheses](https://github.com/Maahichaurasiya/Leetcode/tree/master/1021-remove-outermost-parentheses) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Maahichaurasiya/Leetcode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Trie
 |  |
 | ------- |
