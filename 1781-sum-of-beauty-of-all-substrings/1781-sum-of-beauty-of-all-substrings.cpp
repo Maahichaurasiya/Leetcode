@@ -5,14 +5,13 @@ public:
         // starting point
         for (int i = 0; i < s.size(); i++) {
             // ending point
+            int freq[26] = {0};
             for (int j = i; j < s.size(); j++) {
-                int freq[26] = {0};
                 // counting frequency
-                for (int k = i; k <= j; k++) {
-                    freq[s[k] - 'a']++;
-                }
-                // finding maximum and minimum
-                int maxi = 0;
+                freq[s[j] - 'a']++;
+
+                    // finding maximum and minimum
+                    int maxi = 0;
                 int mini = INT_MAX;
                 for (int k = 0; k < 26; k++) {
                     if (freq[k] > 0) {
@@ -28,5 +27,5 @@ public:
     }
 };
 
-// TC=> O(n³)
+// TC=> O(n²)
 // SC=>O(1)
