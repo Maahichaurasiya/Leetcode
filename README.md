@@ -35,6 +35,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/Maahichaurasiya/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/Maahichaurasiya/Leetcode/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/Maahichaurasiya/Leetcode/tree/master/0875-koko-eating-bananas) |
+| [0907-sum-of-subarray-minimums](https://github.com/Maahichaurasiya/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Maahichaurasiya/Leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Maahichaurasiya/Leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1480-running-sum-of-1d-array](https://github.com/Maahichaurasiya/Leetcode/tree/master/1480-running-sum-of-1d-array) |
@@ -68,6 +69,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Maahichaurasiya/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/Maahichaurasiya/Leetcode/tree/master/0053-maximum-subarray) |
+| [0907-sum-of-subarray-minimums](https://github.com/Maahichaurasiya/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
 ## Hash Table
 |  |
 | ------- |
@@ -118,6 +120,7 @@
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Maahichaurasiya/Leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Maahichaurasiya/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Maahichaurasiya/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0907-sum-of-subarray-minimums](https://github.com/Maahichaurasiya/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [1021-remove-outermost-parentheses](https://github.com/Maahichaurasiya/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Maahichaurasiya/Leetcode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Tree
@@ -311,4 +314,8 @@
 |  |
 | ------- |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Maahichaurasiya/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0907-sum-of-subarray-minimums](https://github.com/Maahichaurasiya/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
 <!---LeetCode Topics End-->
